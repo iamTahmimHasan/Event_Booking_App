@@ -37,6 +37,10 @@ func showBookings() {
 	fmt.Println("Show Bookings function called")
 }
 
+func options() {
+	fmt.Println("Options function called")
+}
+
 func main() {
 	clearConsole()
 
@@ -73,6 +77,6 @@ func main() {
 		fmt.Println("Invalid choice, please try again.")
 	}
 
-	main()
+	options()
 
 }
